@@ -9,12 +9,15 @@ Este projeto apresenta a criação de uma aplicação simples utilizando Docker 
 O primeiro passo foi criar uma página HTML simples (index.html) e um Dockerfile para gerar uma imagem customizada, utilizando o Nginx como base.
 
 index.html
+
 <img src="https://github.com/user-attachments/assets/412d93d6-053d-4dc2-b11b-8bb9e9e6f1eb" width="500"/>
 
 Dockerfile
+
 <img src="https://github.com/user-attachments/assets/5dbd750c-9c40-417c-872b-3be88576c176" width="500"/>
 
 Estrutura da pasta
+
 <img src="https://github.com/user-attachments/assets/4e524929-1d2b-4575-93ce-ec778cbe24fc" width="500"/>
 
 
@@ -43,6 +46,7 @@ docker-compose up -d
 
 
 5. Testar nos navegadores (localhost:8080 e localhost:8081)
+
 localhost:8080
 
 <img src="https://github.com/user-attachments/assets/a84cd015-06ac-4b65-8da9-6033e16454b9" width="500"/>
