@@ -21,11 +21,13 @@ O primeiro passo foi criar uma página HTML simples (index.html) e um Dockerfile
 <img src="https://github.com/user-attachments/assets/4e524929-1d2b-4575-93ce-ec778cbe24fc" width="500"/>
 
 
+
 2. Buildar a imagem customizada
 Após criar os arquivos, foi realizado o build da imagem:
 docker build -t minha-imagem-customizada .
 
 <img src="https://github.com/user-attachments/assets/baf68ac6-c6eb-4206-ae76-f8bade4ff50d" width="500"/>
+
 
 
 3. Criar docker-compose.yml com dois serviços
@@ -34,6 +36,7 @@ Serviço 1 → Porta 8080
 Serviço 2 → Porta 8081
 
 <img src="https://github.com/user-attachments/assets/d16417b5-9afa-4189-9aaf-0f233555a21a" width="500"/>
+
 
 
 4. Subir tudo com docker-compose up
@@ -45,6 +48,7 @@ docker-compose up -d
 <img src="https://github.com/user-attachments/assets/6cd10458-c7bd-48ee-90b8-3e3c9c280049" width="500"/>
 
 
+
 5. Testar nos navegadores (localhost:8080 e localhost:8081)
 
 *localhost:8080*
@@ -54,6 +58,7 @@ docker-compose up -d
 *localhost:8081*
 
 <img src="https://github.com/user-attachments/assets/653cac0d-be77-4a2f-ac11-be6bcaa2b661" width="500"/>
+
 
 
 6. Explorar comandos extras (logs, ps, exec)
@@ -71,6 +76,7 @@ Entrar no container
 docker exec -it nome_do_container sh
 
 <img src="https://github.com/user-attachments/assets/e7c48410-1121-4b17-98c8-7a053350da2d" width="500"/>
+
 
 
 7. Finalizar com docker-compose down
